@@ -7,17 +7,29 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickWidget"
         android:text="Hello World"
         android:textAllCaps="true" />
     <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onClickWidget"
         android:text="안녕~!"
         android:textAllCaps="true" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onClickWidget"
+        android:textOn="토글 ON"
+        android:textOff="토글 Off"
+        />
 
 
 </LinearLayout>
