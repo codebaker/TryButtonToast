@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(view.getContext(), button.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 */
-
     public void onClickWidget(View view) {
         int id = view.getId();
         String text = null;
